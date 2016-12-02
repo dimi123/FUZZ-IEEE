@@ -1,0 +1,91 @@
+@attribute expertise numeric
+@attribute tempBRsmoke {1,2,3,4,5,6}
+@attribute tempSpO2smoke {7,8,9,10,11,12}
+@attribute tempHRsmoke {13,14,15,16,17,18}
+@attribute tempBRbike {1,2,3,4,5,6}
+@attribute tempSpO2bike {7,8,9,10,11,12}
+@attribute tempHRbike {13,14,15,16,17,18}
+@attribute tempBRfds {1,2,3,4,5,6}
+@attribute tempSpO2fds {7,8,9,10,11,12}
+@attribute tempHRfds {13,14,15,16,17,18}
+@attribute tempBRdrown {1,2,3,4,5,6}
+@attribute tempSpO2drown {7,8,9,10,11,12}
+@attribute tempHRdrown {13,14,15,16,17,18}
+@attribute gender {1,2}
+@attribute ageGroup {1,2,3,4,5,6}
+@attribute when numeric
+@attribute experienceWithSensorData {1,2}
+@attribute profession string
+
+@data
+
+3,2,8,16,NA,NA,NA,6,7,15,6,7,14,1,2,2,2,Ecologist
+2,2,8,14,2,11,14,2,11,14,1,11,14,2,1,1,2,Ecologist
+2,2,8,14,2,7,14,6,7,14,6,7,14,1,3,5,2,Engineer
+2,2,8,14,2,8,14,4,10,16,4,10,14,2,2,4,2,
+2,2,8,16,2,10,14,2,10,14,4,10,14,2,5,2,2,University teacher
+2,3,9,15,3,9,15,3,11,15,5,9,15,2,2,1,1,veterinary surgeon
+2,3,9,15,NA,NA,NA,NA,NA,NA,6,11,15,2,3,4,2,Clinical Scientist
+2,5,8,15,1,7,15,6,7,15,1,7,18,2,2,4,1,Lecturer
+2,3,9,15,3,7,15,1,10,15,4,10,15,1,3,4,2,Lecturer
+2,2,8,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,2,2,2,Lecturer
+6,3,9,15,3,11,15,5,11,15,5,11,14,2,2,3,2,Emergency Medicine Speciality Doctor
+6,2,8,14,NA,NA,NA,NA,NA,NA,2,10,14,1,2,1,1,Doctor
+6,3,8,15,3,11,18,5,11,14,5,11,18,2,3,5,2,Doctor
+6,3,9,15,3,11,15,5,11,15,5,11,15,1,3,1,1,Doctor
+6,2,8,14,2,10,14,2,10,14,4,7,14,1,4,5,2,hospital doctor
+6,2,12,14,2,9,18,1,11,18,1,11,15,1,3,2,1,Medical Doctor
+1,1,2,6,1,10,14,1,10,14,1,10,16,1,10,14,1,2,6,2,PhD Student
+2,2,8,14,2,7,14,6,7,14,6,7,14,2,3,1,2,Student
+1,4,10,16,4,10,14,2,10,16,4,10,14,2,3,6,2,PhD student
+2,5,9,15,3,9,15,3,9,15,5,9,15,1,1,2,2,phd student
+2,2,8,14,1,10,14,2,10,14,1,10,14,1,1,1,2,PhD student
+1,2,8,15,2,11,15,4,11,15,4,11,15,1,3,6,2,researcher at university
+1,2,8,14,NA,NA,NA,NA,NA,NA,4,10,14,2,1,6,2,student
+2,2,8,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,1,4,2,PhD student
+0,2,8,14,2,10,14,2,10,14,1,7,14,2,4,6,2,plant ecologist
+2,2,8,14,2,10,14,2,10,14,1,3,5,1,3,5,1,Vet Surgeon
+2,2,8,15,3,11,15,2,11,15,4,11,15,1,4,2,2,solicitor
+1,2,8,14,2,7,14,6,7,14,6,7,14,2,3,6,2,research scientist
+2,2,8,14,2,10,14,4,10,14,4,10,14,2,2,2,2,Research Scientist
+2,2,8,14,2,7,14,1,10,14,1,7,14,2,2,3,2,Research scientist
+3,3,9,15,3,9,15,3,12,15,6,12,15,1,3,1,1,Research scientist
+2,6,12,18,4,10,18,6,10,14,6,10,18,1,5,5,2,retired
+2,2,8,14,2,10,14,1,10,14,1,7,14,1,5,6,2,retired
+2,3,9,15,3,11,15,3,11,15,5,11,15,1,5,3,2,Retired
+2,2,8,14,2,10,14,4,10,14,4,10,14,1,4,3,2,Retired
+3,2,8,14,2,7,14,1,7,14,4,7,14,1,3,4,1,Scientist
+2,2,8,14,2,7,14,2,7,14,1,7,14,2,4,3,2,Scientist
+2,2,8,14,2,7,14,1,7,18,1,7,14,2,4,3,2,scientist
+2,2,8,15,3,7,15,5,11,15,1,7,14,2,3,1,2,scientist
+2,2,8,14,2,7,14,4,10,14,1,10,14,1,2,5,2,Scientist
+2,2,8,14,1,7,14,6,7,14,6,7,14,1,3,1,1,Scientist
+1,2,8,14,2,7,14,2,7,14,4,10,14,1,3,6,2,Game designer
+2,3,9,15,3,10,15,3,10,15,5,10,15,2,1,1,2,Scientific researcher
+2,2,8,15,3,10,15,3,10,15,1,10,15,2,2,4,2,Marketing Manager
+2,2,8,16,4,10,14,4,10,14,5,10,14,1,3,3,1,Palaeontologist
+2,3,9,15,3,9,15,3,9,15,3,9,15,2,3,1,1,environmental physicist
+2,2,8,14,2,10,14,2,10,14,1,7,14,1,3,5,2,Research support manager
+6,2,8,14,4,10,14,4,10,14,4,10,14,1,2,4,2,Urologist
+2,2,8,13,1,7,14,1,7,14,1,7,14,1,2,3,1,Research Fellow
+5,3,9,15,3,11,15,5,11,15,5,10,14,2,3,1,1,Pharmacist
+1,2,8,14,2,7,14,5,7,14,4,10,14,1,2,1,2,researcher
+2,5,10,16,2,11,15,1,7,153,8,14,2,2,1,2,Project Officer 
+2,2,8,16,2,10,14,2,10,14,1,10,14,2,3,3,2,academic
+2,2,8,16,2,10,14,2,10,14,4,10,14,2,3,3,2,Pensions administrtor
+1,2,8,14,2,7,14,1,7,14,2,7,14,2,2,6,2,Civil servant
+2,2,8,14,2,10,14,2,10,14,4,10,14,1,4,2,2,Brewer
+2,2,8,14,2,7,14,1,7,14,1,7,14,1,3,1,2,Software Developer
+2,2,8,14,2,10,14,2,10,14,4,10,14,1,5,3,2,environmental science
+3,2,8,14,4,10,14,1,7,14,1,10,14,1,2,3,2,Quantity Surveyor
+3,2,8,14,2,10,14,6,10,14,6,10,14,1,3,1,2,botanist
+5,3,9,15,3,10,15,3,10,15,5,10,15,2,2,2,2,Mental Health Nurse
+2,3,9,15,4,7,15,1,7,15,1,7,15,1,1,3,2,Research Assistant
+2,5,9,15,5,11,17,5,11,17,5,11,17,2,1,1,2,Research Assistant 
+2,2,9,15,3,10,15,3,10,15,1,7,15,2,3,3,2,Health promotion specialist
+2,2,8,16,4,7,14,4,7,14,4,10,14,2,2,1,2,Biogeochemist
+5,2,9,15,5,9,14,6,9,14,6,7,15,2,4,1,1,Nursing
+2,2,8,15,4,10,15,4,10,15,4,10,15,2,2,3,2,Administration
+2,2,8,14,2,10,14,4,10,14,4,10,14,2,2,1,2,researcher
+2,3,9,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,4,6,2,safety practitioner
+6,2,9,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,3,4,1,Hospital Consultant
